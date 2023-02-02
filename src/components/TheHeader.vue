@@ -4,21 +4,14 @@
       color="white"
       dark
     >
-      <div class="d-flex align-center">
-        <a
-          href="https://leadhit.ru/"
+      <v-btn
+          href="https://github.com/Turdiev"
           target="_blank"
-        >
-          <v-img
-            alt="Vuetify Logo"
-            class="shrink mr-2"
-            contain
-            src="./../assets/images/logo.svg"
-            transition="scale-transition"
-            width="150"
-          />
-        </a>
-      </div>
+          text
+          class="text-black"
+      >
+        <span class="text-black mr-2">Turdiev</span>
+      </v-btn>
 
       <v-spacer></v-spacer>
 

@@ -61,7 +61,6 @@ export default new Vuex.Store({
 
       response = await axios(options)
         .then(res => {
-          console.log('RES', res);
           commit('THE_SAVE_SITE_ID', res)
           localStorage.setItem('leadhit-site-id', data)
           return res;

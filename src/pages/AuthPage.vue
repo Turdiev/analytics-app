@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <div class="flex justify-center items-center max-h-10 mt-28">
-      <AppTitle>LeadHit</AppTitle>
+      <AppTitle>SPA</AppTitle>
     </div>
     <div class="flex justify-center items-center">
       <FormLogin class="w-80" @click="onSubmit" />
@@ -18,8 +18,8 @@
 </template>
 
 <script>
-import FormLogin from "../components/form/FormLogin.vue";
-import AppTitle from "../components/app/AppTitle.vue";
+import FormLogin from "@/components/form/FormLogin.vue";
+import AppTitle from "@/components/app/AppTitle.vue";
 export default {
   name: "HomePage",
 
